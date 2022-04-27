@@ -1,0 +1,192 @@
+{
+  "zenMode.hideTabs": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.tree.indent": 20,
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.colorCustomizations": {
+    "errorLens.hintForeground": "#ffc600A1",
+    "errorLens.hintBackground": "#ffc60003",
+    "errorLens.errorBackground": "#ff000005"
+  },
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "\"Fira Code\"",
+  "editor.wordWrap": "bounded",
+  "editor.minimap.enabled": false,
+  "editor.cursorStyle": "block",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.suggestSelection": "first",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "expand",
+  "editor.guides.bracketPairs": true,
+  "editor.formatOnSave": true,
+  "editor.showFoldingControls": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.renderWhitespace": "trailing",
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.lineHeight": 20,
+  "editor.rulers": [80, 100],
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.next": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/dist": false
+  },
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "files.insertFinalNewline": true,
+  "window.menuBarVisibility": "toggle",
+  "window.closeWhenEmpty": true,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact",
+    "javascript",
+    "javascriptreact"
+  ],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "html"
+  },
+  "gitlens.views.repositories.files.layout": "list",
+  "gitlens.advanced.messages": {
+    "suppressCommitNotFoundWarning": true
+  },
+  "scm.defaultViewMode": "tree",
+  "gitlens.gitCommands.closeOnFocusOut": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.tsserver.log": "verbose",
+  "material-icon-theme.activeIconPack": "react",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.symbolPath": "off",
+  "search.searchOnType": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.copyOnSelection": true,
+  "[markdown]": {},
+  "markdown.preview.fontSize": 18,
+  "markdown.preview.breaks": true,
+  "markdown.trace": "verbose",
+  "todo-tree.tree.showScanModeButton": false,
+  "scm.alwaysShowRepositories": true,
+  "vim.useCtrlKeys": false,
+  "vim.handleKeys": {
+    "<C-d>": false
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "cSpell.userWords": ["contentful", "semibold"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "headwind.runOnSave": false,
+  "yaml.schemas": {
+    "file:///home/mahdi/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": false,
+  "git.showPushSuccessNotification": true,
+  "git.autofetch": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#ffc600",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "Solution",
+      "color": "#193549",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "#ffc600",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "Task",
+      "color": "#ffc600",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "Transparent",
+      "bold": true,
+      "italic": true
+    }
+  ],
+  "notebook.showFoldingControls": "always",
+  "polacode.shadow": "rgba(0, 0, 0, 0.55) 0px 0 0",
+  "polacode.transparentBackground": true,
+  "polacode.target": "snippet",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "errorLens.fontSize": "12",
+  "errorLens.onSave": true,
+  "errorLens.enabledDiagnosticLevels": ["error", "warning", "hint"],
+  "errorLens.exclude": ["never (read|used)"]
+}
